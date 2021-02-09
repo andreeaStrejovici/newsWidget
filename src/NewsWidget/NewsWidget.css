@@ -1,3 +1,63 @@
 .ul {
+    float: left;
     list-style: none;
 }
+
+.title {
+    float: left;
+}
+
+.canvas{
+    position: relative;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.dropdown{
+        overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;  
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:rgb(187, 145, 178);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.dropbtn:hover {
+    background-color: dimgray;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .show {
+    display: block;
+  }
