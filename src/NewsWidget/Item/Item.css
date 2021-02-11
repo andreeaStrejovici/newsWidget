@@ -1,0 +1,11 @@
+.ul {
+    float: left;
+    list-style: none;
+}
+
+.atricleTitle {
+    float: left;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}

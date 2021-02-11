@@ -1,39 +1,46 @@
 .ul {
-    float: left;
-    list-style: none;
+  float: left;
+  list-style: none;
 }
 
 .title {
+    color: hotpink;
     float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline;
+    padding-left: 10px;
+    padding-top: 10px;
+    
 }
 
 .canvas{
     position: relative;
     margin-right: 30%;
     margin-left: 30%;
+    background-color: lightgray;
+    padding-bottom: 20%;
 }
 
 .dropdown{
+        padding-right: 10px;
+        padding-top: 10px;
         overflow: hidden;
 }
 
 .dropdown .dropbtn {
     float: right;
     cursor: pointer;
-    font-size: 20px;  
-    border: none;
+    border-color: gray;
     border-radius: 5px;
     outline: none;
     color: black;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color:rgb(187, 145, 178);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:transparent;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-}
-
-.dropbtn:hover {
-    background-color: dimgray;
 }
 
 .dropdown-content {
@@ -41,7 +48,7 @@
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px;
     z-index: 1;
   }
   
@@ -56,8 +63,21 @@
   
   .dropdown-content a:hover {
     background-color: #ddd;
+
   }
   
   .show {
     display: block;
   }
+
+  .atricleTitle {
+    float: left;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.showMore {
+    position: static;
+  
+}

@@ -7,21 +7,16 @@ import DropdownItem from 'react-bootstrap/DropdownItem'
 
 
 class NewsWidget extends Component{
-    constructor(props){
-        super(props)
-        this.state = {
-            articles: [],
-            sources: [],
-            currentPage: 1,
-            selectedSource: ''
-        }
-    }
-
+    
     sources = ['CNN', 'Independent', 'New York Times']
-    numb = [1,2,3,4,5]
+    numb = [1, 2, 3, 4, 5];
     render() {
+
         return (
+            
             <div class="canvas">
+                
+                
                 <div class="title">
                     News
                 </div>
@@ -33,8 +28,13 @@ class NewsWidget extends Component{
                 </div>
                 <p>This is the NewsWidget!</p>
                 <ul class='ul'>
-                    {this.numb.map((value, index) => <li key={index}><NewsItem/></li>)}
+                    
+                    {this.numb.map((value, index) => <li key={index}><NewsItem title="asdfasd" source="CNN" date="10.10.2020"/></li>)}
                 </ul>
+                <NewsItem/>
+                <div class="showMore">
+                    <button>Show More</button>
+                </div>
             </div>
         )
     }
