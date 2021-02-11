@@ -3,81 +3,78 @@
   list-style: none;
 }
 
+.showbtn {
+  position: absolute;
+  overflow: hidden;
+  background-color: transparent;
+  border-style: solid;
+  border-color: hotpink;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  bottom: 150px;
+  left: 40px
+}
+
 .title {
-    color: hotpink;
-    float: left;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-    text-decoration: underline;
-    padding-left: 10px;
-    padding-top: 10px;
+  color: hotpink;
+  float: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: underline;
+  padding-left: 10px;
+  padding-top: 10px;
     
 }
 
 .canvas{
-    position: relative;
-    margin-right: 30%;
-    margin-left: 30%;
-    background-color: lightgray;
-    padding-bottom: 20%;
+  position: relative;
+  margin-right: 30%;
+  margin-left: 30%;
+  background-color: lightgray;
+  padding-bottom: 30%;
 }
 
 .dropdown{
-        padding-right: 10px;
-        padding-top: 10px;
-        overflow: hidden;
+  padding-right: 10px;
+  padding-top: 10px;
+  overflow: hidden;
 }
 
 .dropdown .dropbtn {
-    float: right;
-    cursor: pointer;
-    border-color: gray;
-    border-radius: 5px;
-    outline: none;
-    color: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color:transparent;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
+  float: right;
+  cursor: pointer;
+  border-color: gray;
+  border-radius: 5px;
+  outline: none;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color:transparent;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px;
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px;
   }
   
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #ddd;
-
-  }
-  
-  .show {
-    display: block;
-  }
-
-  .atricleTitle {
-    float: left;
-    font-size: 100px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
-
-.showMore {
-    position: static;
   
+.dropdown-content a:hover {
+  background-color: #ddd;
+
 }
+  
+
+

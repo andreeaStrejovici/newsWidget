@@ -1,0 +1,22 @@
+.ul {
+    list-style: none;
+
+}
+
+.li {
+    display: inline-block;
+}
+
+.source {
+    border-radius: 100px;
+}
+
+.articleTitle {
+    float: left;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+    
+}
+

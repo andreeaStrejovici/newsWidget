@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NewsItem from './Item/NewsItem'
+import NewsItem from '../Item/NewsItem'
 import './NewsWidget.css'
 import Dropdown from 'react-bootstrap/Dropdown'
 import DropdownButton from 'react-bootstrap/DropdownButton'
@@ -27,14 +27,14 @@ class NewsWidget extends Component{
                     </select>
                 </div>
                 <p>This is the NewsWidget!</p>
-                <ul class='ul'>
-                    
-                    {this.numb.map((value, index) => <li key={index}><NewsItem title="asdfasd" source="CNN" date="10.10.2020"/></li>)}
-                </ul>
-                <NewsItem/>
-                <div class="showMore">
-                    <button>Show More</button>
+                <div>
+                    <ul class='ul'>
+                        
+                        {this.numb.map((value, index) => <li key={index}><NewsItem title="asdfasd" source="CNN" date="10.10.2020"/></li>)}
+                    </ul>
+                    <button class="showbtn">Show More</button>
                 </div>
+
             </div>
         )
     }

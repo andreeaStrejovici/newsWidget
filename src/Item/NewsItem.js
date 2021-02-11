@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import props from 'prop-types';
-import './Item.css';
+import './NewsItem.css';
 
 class NewsItem extends Component{
     title = ""
@@ -16,12 +16,15 @@ class NewsItem extends Component{
             <div>
                 <div class="articleTitle"> 
                     {this.props.title}
-                    
                 </div>
 
                 <div>
-                    {this.props.date}
-                    {this.props.source}
+                    
+                    <ul class="ul" >
+                    <li>{this.props.date}</li>
+                    
+                    <li>{this.props.source}</li>
+                    </ul>
                     
                 </div>
             </div>
