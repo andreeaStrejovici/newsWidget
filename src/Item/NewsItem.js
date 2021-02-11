@@ -13,19 +13,17 @@ class NewsItem extends Component{
 
     render() {
         return (
-            <div>
-                <div class="articleTitle"> 
-                    {this.props.title}
+            <div> 
+                <div class="articleTitle"><a class="a" href={this.props.link}>
+                    {this.props.title}</a>
                 </div>
-
-                <div>
+                <div >
+                    <ul class="ul">
+                        <li class="li date">{this.props.date}</li>
+                        <li class="li source"> {this.props.source}</li>
+                    </ul>   
                     
-                    <ul class="ul" >
-                    <li>{this.props.date}</li>
-                    
-                    <li>{this.props.source}</li>
-                    </ul>
-                    
+                
                 </div>
             </div>
         )

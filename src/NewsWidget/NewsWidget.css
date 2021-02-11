@@ -1,6 +1,14 @@
 .ul {
   float: left;
   list-style: none;
+  display: inline;
+  padding-bottom: 20px;
+}
+
+.li.li {
+  padding-bottom: 5px;
+  float: left;
+  display: inline;
 }
 
 .showbtn {
@@ -9,10 +17,16 @@
   background-color: transparent;
   border-style: solid;
   border-color: hotpink;
+  outline: none;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  bottom: 150px;
+  bottom: 50px;
   left: 40px
 }
+
+.showbtn:hover {
+  border-color: darkred;
+}
+
 
 .title {
   color: hotpink;
@@ -71,10 +85,10 @@
   text-align: left;
 }
   
-.dropdown-content a:hover {
+.dropdown-content:hover {
   background-color: #ddd;
 
 }
-  
+
 
 

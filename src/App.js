@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import NewsWidget from './NewsWidget/NewsWidget'
-import Article from './Article'
+import Article from './Article.ts'
 
 function App() {
-  
+
   return (
     <div className="App">
         <body>
